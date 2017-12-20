@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.edu.unirp.android.somadoisnumeros.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soma"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número 1"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="85dp" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="65dp"
+        android:id="@+id/EdtNum1"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número 2"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="130dp"
+        android:id="@+id/EdtNum2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="195dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="175dp"
+        android:id="@+id/EdtResultado"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="-147dp"
+        tools:layout_editor_absoluteX="-114dp"
+        android:text="Somar"
+        android:id="@+id/BtnSomar"/>
+
+
+</android.support.constraint.ConstraintLayout>

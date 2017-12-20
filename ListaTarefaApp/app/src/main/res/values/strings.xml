@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ListaTarefaApp</string>
+    <string name="menu_add">ListaTarefaApp</string>
+    <string name="title_activity_create">Create</string>
+    <string name="Nome">Nome</string>
+    <string name="Concluída">Concluída</string>
+    <string name="Salvar">Salvar</string>
+    <string name="Descrição">Descrição</string>
+
+</resources>

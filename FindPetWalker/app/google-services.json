@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "814791672576",
+    "firebase_url": "https://findpetwalker.firebaseio.com",
+    "project_id": "findpetwalker",
+    "storage_bucket": "findpetwalker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814791672576:android:5a2144d4c5b58a16",
+        "android_client_info": {
+          "package_name": "br.com.edu.unirp.android.findpetwalker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814791672576-875k33sm36rdhu8jksit7irifk5oe65e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC83uotbWZH_nNbqz7-1co3cct2SAajaXI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

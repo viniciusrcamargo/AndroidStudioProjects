@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Find Pet Walker</string>
+    <string name="pesquisa">Pesquise um Pet Walker</string>
+    <string name="cidade">Cidade</string>
+    <string name="nome">Nome:</string>
+    <string name="endereco">Endereço:</string>
+    <string name="email">E-mail:</string>
+    <string name="tel">Telefone:</string>
+    <string name="senha">Senha:</string>
+
+    <string-array name="cidades">
+        2
+        <item>Araçatuba</item>
+        3
+        <item>Birigui</item>
+        4
+        <item>Guararapes</item>
+        5
+        <item>São José do Rio Preto</item>
+        6
+        <item>Mirassol</item>
+        7
+    </string-array>
+</resources>

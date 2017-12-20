@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prova Android</string>
+    <string name="dados_contato">Dados do Contato</string>
+    <string name="nome">Nome:</string>
+    <string name="email">E-mail:</string>
+    <string name="botao_salvar">Salvar</string>
+</resources>
