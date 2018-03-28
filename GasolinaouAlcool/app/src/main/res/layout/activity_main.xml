@@ -58,6 +58,7 @@
                     android:layout_marginLeft="10dp"
                     android:width="160dp"
                     android:background="@android:color/background_light"
+                    android:hint="Ex: 2.60"
                     android:inputType="numberDecimal"
                     android:paddingHorizontal="@dimen/espc_edittext"
                     android:paddingVertical="@dimen/espc_edittext" />
@@ -69,6 +70,7 @@
                     android:layout_marginLeft="40dp"
                     android:width="160dp"
                     android:background="@android:color/background_light"
+                    android:hint="Ex: 3.90"
                     android:inputType="numberDecimal"
                     android:paddingHorizontal="@dimen/espc_edittext"
                     android:paddingVertical="@dimen/espc_edittext" />
