@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/FundoGasolinaAlcool"
+    tools:context="gasolinaoualcool.cursoandroid.com.gasolinaoualcool.MainActivity">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                    android:text="Preço do Álcool"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="22dp"
+                    android:layout_weight="1"
+                    android:text="Preço da Gasolina"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+
+                <EditText
+                    android:id="@+id/edtPrecoAlcool"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:width="160dp"
+                    android:background="@android:color/background_light"
+                    android:inputType="numberDecimal"
+                    android:paddingHorizontal="@dimen/espc_edittext"
+                    android:paddingVertical="@dimen/espc_edittext" />
+
+                <EditText
+                    android:id="@+id/edtPrecoGasolina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:width="160dp"
+                    android:background="@android:color/background_light"
+                    android:inputType="numberDecimal"
+                    android:paddingHorizontal="@dimen/espc_edittext"
+                    android:paddingVertical="@dimen/espc_edittext" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnVerificar"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/texto_botao_verificar"/>
+
+        <TextView
+            android:id="@+id/txvResultado"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="20sp" />
+
+
+</LinearLayout>
